@@ -20,6 +20,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.geotrack.SplashActivity" />
+        </activity>
+        <activity
+            android:name=".TrackActivity"
+            android:label="@string/title_activity_track" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.geotrack.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
