@@ -6,5 +6,15 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_track">TrackActivity</string>
-
+	<string name="splash_authors">Powered by Liu Ning and Colin Jäger</string>
+	<string name="app_logo">app Logo</string>
+	<string name="contact_us">Contact us!</string>
+	<string name="colin_jager">Colin Jäger bla bla</string>
+	<string name="liu_ning">Liu Ning bla bla</string>
+	<string name="creator_logo">Creator Logo</string>
+	<string name="interval">Interval / Minutes</string>
+	<string name="distance">Distance / Kilometer</string>
+	<string name="set_timeinterval">Set a numerical interval</string>
+	<string name="set_distanceinterval">Set a numerical distance</string>
+	<string name="start_tracking">Start Tracking!</string>
 </resources>

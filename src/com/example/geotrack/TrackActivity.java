@@ -1,10 +1,8 @@
 package com.example.geotrack;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
 
 public class TrackActivity extends Activity {
 
@@ -22,14 +20,6 @@ public class TrackActivity extends Activity {
     }
 
     
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+
 
 }

@@ -4,5 +4,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interval" />
 
+    <EditText
+        android:id="@+id/et_set_time_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_timeinterval"
+        android:inputType="number" />
+    
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distance" />
+    
+	<EditText
+        android:id="@+id/et_set_distance_interval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_distanceinterval"
+        android:inputType="number" />
+    
+	<Button
+	    android:id="@+id/bt_start_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_tracking" />
+    
+    
 </LinearLayout>

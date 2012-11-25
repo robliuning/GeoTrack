@@ -2,9 +2,12 @@
     package="com.example.geotrack"
     android:versionCode="1"
     android:versionName="1.0" >
+    
+     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="15" />
 
     <application

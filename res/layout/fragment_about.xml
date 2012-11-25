@@ -3,6 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
 
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colin_jager" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/liu_ning" />
+    
+    <Buttons
+        android:id="@+id/bt_send_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us" />
+    
+     
+     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:contentDescription="@string/creator_logo"
+        android:src="@drawable/androidunltd" />
+    
+    
+    
 </LinearLayout>
